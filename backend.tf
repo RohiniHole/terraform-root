@@ -12,7 +12,7 @@ terraform {
    backend "s3" {
      bucket         = "2026-mydev-firstproject-terraform-sample-batch-33"
      key            = "infra/terraform.tfstate"
-     region         = "us-east-1"
+     region         = "ap-south-1"
      dynamodb_table = "my-dynamodb-table"
      encrypt        = true
    }
