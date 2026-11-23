@@ -10,7 +10,7 @@ terraform {
 
 
    backend "s3" {
-     bucket         = "mydev-project-terraform-sample-batch-3334"
+     bucket         = "2026-mydev-firstproject-terraform-sample-batch-33"
      key            = "infra/terraform.tfstate"
      region         = "us-east-1"
      dynamodb_table = "my-dynamodb-table"
